@@ -16,9 +16,8 @@ This is not yet a piece of download-and-use software. Its important
 to understand the basic principles covered by this documentation.
 
 Use of this software is currently recommended only for users that
-wish participate in the development process (see Contributions).
-
-TODO: Make "Contributions" a link
+wish participate in the development process, see
+[Contributions](#contributions).
 
 ## Getting started
 To get started with OSE, refer to the [ose-bundle](http://opensmartenvironment.github.io/doc/modules/bundle.html) package and
@@ -81,7 +80,7 @@ these steps:
 This can be used to easily integrate, for example, Arduino boards
 or other controllers into the OSE ecosystem. If someone wants to
 put his effort into this challenge, don't hesitate to contact us
-via GitHub for support.
+via [GitHub](https://github.com/OpenSmartEnvironment) for support.
 
 Read more about [Pins](http://opensmartenvironment.github.io/doc/modules/control.pin.html) ...
 
@@ -125,7 +124,7 @@ Provides files of OSE Control package to the browser.
 
 Module [OSE Control content](http://opensmartenvironment.github.io/doc/classes/control.content.html) reference ... 
 
-## Contributions
+## <a name="contributions"></a>Contributions
 To get started contributing or coding, it is good to read about the
 two main npm packages [ose](http://opensmartenvironment.github.io/doc/modules/ose.html) and [ose-bb](http://opensmartenvironment.github.io/doc/modules/bb.html).
 
@@ -136,5 +135,6 @@ us via
 [github.com/opensmartenvironment](https://github.com/opensmartenvironment).
 
 ## Licence
-This software is licensed under the terms of the [GNU GPL version
-3](../LICENCE) or later
+This software is released under the terms of the [GNU General
+Public License v3.0](http://www.gnu.org/copyleft/gpl.html) or
+later.
