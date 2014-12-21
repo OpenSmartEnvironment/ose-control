@@ -49,8 +49,10 @@ exports.addFiles = function() {
   this.addModule('lib/light/switch');
   this.addModule('lib/pin/bb/din.js');
   this.addModule('lib/pin/bb/dout.js');
+  this.addModule('lib/pin/bb/light.js');
   this.addModule('lib/pin/bb/list.js');
   this.addModule('lib/pin/bb/pwm.js');
+  this.addModule('lib/pin/bb/switch.js');
   this.addModule('lib/pin/commands.js');
   this.addModule('lib/remote.js');
   this.addModule('lib/room/index');
