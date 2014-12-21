@@ -91,6 +91,9 @@ This component defines basic room entry kinds. By configuring
 entries of these kinds, it is possible to define an indoor
 environment and its behaviour.
 
+For a simple example of how to control a light using a switch, see
+the [Raspberry Pi example application](http://opensmartenvironment.github.io/doc/modules/bundle.rpi.html).
+
 Read more about [Rooms](http://opensmartenvironment.github.io/doc/modules/control.room.html) ...
 
 
