@@ -10,10 +10,10 @@ exports = require('ose')
  */
 
 /**
- * @caption OSE Control content
+ * @caption Control content
  *
  * @readme
- * Provides files of OSE Control package to the browser.
+ * Provides files of [ose-control] package to the browser.
  *
  * @class control.content
  * @type singleton
