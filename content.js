@@ -22,6 +22,8 @@ exports = require('ose')
 
 // Public  {{{1
 exports.addFiles = function() {
+  this.addModule('node_modules/ip/lib/ip.js', 'ip');
+
   this.addModule('lib/blinds/index');
   this.addModule('lib/blinds/bb/detail');
   this.addModule('lib/blinds/bb/listDetail');
