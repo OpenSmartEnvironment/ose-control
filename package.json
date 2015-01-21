@@ -25,7 +25,8 @@
     "raspberry"
   ],
   "dependencies": {
-    "node-schedule": "^0.1.13"
+    "node-schedule": "^0.1.13",
+    "ip": "~0.3.2"
   },
   "license": "GPL-3.0+"
 }

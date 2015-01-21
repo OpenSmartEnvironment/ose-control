@@ -41,6 +41,7 @@ exports.addFiles = function() {
   this.addModule('lib/heater/pin');
   this.addModule('lib/heater/tariff');
   this.addModule('lib/index');
+  this.addModule('lib/ippool/index');
   this.addModule('lib/light/bb/detail');
   this.addModule('lib/light/bb/listItem');
   this.addModule('lib/light/index');
