@@ -38,7 +38,7 @@ exports.addFiles = function() {
   this.addModule('lib/door/pin');
   this.addModule('lib/flowMeter/index');
   this.addModule('lib/heater/bb/detail');
-  this.addModule('lib/heater/bb/listDetail');
+  this.addModule('lib/heater/bb/listItem');
   this.addModule('lib/heater/index');
   this.addModule('lib/heater/pin');
   this.addModule('lib/heater/tariff');
