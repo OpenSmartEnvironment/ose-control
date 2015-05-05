@@ -44,6 +44,7 @@ function Init() {  // {{{2
   this.addModule('lib/heater/tariff');
   this.addModule('lib/index');
   this.addModule('lib/ippool/index');
+  this.addModule('lib/light/data');
   this.addModule('lib/light/gaia/detail');
   this.addModule('lib/light/gaia/listItem');
   this.addModule('lib/light/index');
