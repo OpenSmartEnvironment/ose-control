@@ -2,7 +2,7 @@
 This package contains definitions of general [kinds of entries](http://opensmartenvironment.github.io/doc/#kindsofentries)
 that represent real objects found in most environments (lights,
 switches, heaters, sensors etc.). Entries are configured by
-defining `entry.data` values. Communication between or among
+defining `entry.dval` values. Communication between or among
 entries is realized via [links](http://opensmartenvironment.github.io/doc/#links).
 
 ## Important links
