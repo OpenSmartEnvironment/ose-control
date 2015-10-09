@@ -32,6 +32,7 @@ function Init() {  // {{{2
   this.addModule('lib/din/index');
   this.addModule('lib/din/pin');
   this.addModule('lib/distributor/index');
+  this.addModule('lib/distributor/gaia/detail');
 //  this.addModule('lib/door/gaia/detail');
 //  this.addModule('lib/door/gaia/listDetail');
   this.addModule('lib/door/index');
@@ -59,7 +60,7 @@ function Init() {  // {{{2
   this.addModule('lib/pin/commands.js');
   this.addModule('lib/remote.js');
   this.addModule('lib/room/index');
-//  this.addModule('lib/room/gaia/detail');
+  this.addModule('lib/room/gaia/detail');
   this.addModule('lib/switch/index');
   this.addModule('lib/switch/pin');
   this.addModule('lib/switch/relay');
