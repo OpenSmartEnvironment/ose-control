@@ -1,6 +1,6 @@
 'use strict';
 
-var O = require('ose').object(module, Init, 'ose/lib/http/content');
+var O = require('ose').object(module, 'ose/lib/http/content');
 exports = O.init();
 
 /** Docs  {{{1
@@ -19,56 +19,37 @@ exports = O.init();
  */
 
 // Public {{{1
-function Init() {  // {{{2
-  O.super.call(this);
+exports.addModule('node_modules/ip/lib/ip.js', 'ip');
 
-  this.addModule('node_modules/ip/lib/ip.js', 'ip');
-
-  this.addModule('lib/blinds/index');
-//  this.addModule('lib/blinds/gaia/detail');
-//  this.addModule('lib/blinds/gaia/listDetail');
-//  this.addModule('lib/din/gaia/detail');
-//  this.addModule('lib/din/gaia/listDetail');
-  this.addModule('lib/din/html5/detail');
-  this.addModule('lib/din/index');
-  this.addModule('lib/din/pin');
-  this.addModule('lib/distributor/index');
-//  this.addModule('lib/distributor/gaia/detail');
-//  this.addModule('lib/door/gaia/detail');
-//  this.addModule('lib/door/gaia/listDetail');
-  this.addModule('lib/door/index');
-  this.addModule('lib/door/pin');
-  this.addModule('lib/flowMeter/index');
-//  this.addModule('lib/heater/html5/detail');
-//  this.addModule('lib/heater/gaia/listItem');
-  this.addModule('lib/heater/index');
-  this.addModule('lib/heater/pin');
-  this.addModule('lib/heater/tariff');
-  this.addModule('lib/index');
-  this.addModule('lib/ippool/index');
-//  this.addModule('lib/light/html5/detail');
-//  this.addModule('lib/light/gaia/listItem');
-  this.addModule('lib/light/index');
-  this.addModule('lib/light/remote');
-  this.addModule('lib/light/pin');
-  this.addModule('lib/light/switch');
-  this.addModule('lib/pin/commands.js');
-  this.addModule('lib/pin/counter.js');
-  this.addModule('lib/pin/din.js');
-  this.addModule('lib/pin/dout.js');
-  this.addModule('lib/pin/index.js');
-  this.addModule('lib/pin/light.js');
-  this.addModule('lib/pin/list.js');
-  this.addModule('lib/pin/orm.js');
-  this.addModule('lib/pin/pwm.js');
-  this.addModule('lib/pin/switch.js');
-  this.addModule('lib/remote.js');
-  this.addModule('lib/room/index');
-//  this.addModule('lib/room/gaia/detail');
-  this.addModule('lib/switch/index');
-  this.addModule('lib/switch/pin');
-  this.addModule('lib/switch/relay');
-//  this.addModule('lib/switch/html5/detail');
-//  this.addModule('lib/switch/gaia/listItem');
-};
+exports.addModule('lib/blinds/index');
+exports.addModule('lib/din/index');
+exports.addModule('lib/din/pin');
+exports.addModule('lib/distributor/index');
+exports.addModule('lib/door/index');
+exports.addModule('lib/door/pin');
+exports.addModule('lib/flowMeter/index');
+exports.addModule('lib/heater/index');
+exports.addModule('lib/heater/pin');
+exports.addModule('lib/heater/tariff');
+exports.addModule('lib/index');
+exports.addModule('lib/ippool/index');
+exports.addModule('lib/light/index');
+exports.addModule('lib/light/remote');
+exports.addModule('lib/light/pin');
+exports.addModule('lib/light/switch');
+exports.addModule('lib/pin/commands.js');
+exports.addModule('lib/pin/counter.js');
+exports.addModule('lib/pin/din.js');
+exports.addModule('lib/pin/dout.js');
+exports.addModule('lib/pin/index.js');
+exports.addModule('lib/pin/light.js');
+exports.addModule('lib/pin/list.js');
+exports.addModule('lib/pin/orm.js');
+exports.addModule('lib/pin/pwm.js');
+exports.addModule('lib/pin/switch.js');
+exports.addModule('lib/remote.js');
+exports.addModule('lib/room/index');
+exports.addModule('lib/switch/index');
+exports.addModule('lib/switch/pin');
+exports.addModule('lib/switch/relay');
 
