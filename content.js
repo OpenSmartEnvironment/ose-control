@@ -48,7 +48,7 @@ exports.addModule('lib/pin/dout.js');
 exports.addModule('lib/pin/index.js');
 exports.addModule('lib/pin/light.js');
 exports.addModule('lib/pin/list.js');
-exports.addModule('lib/pin/orm.js');
+exports.addModule('lib/pin/field.js');
 exports.addModule('lib/pin/pwm.js');
 exports.addModule('lib/pin/switch.js');
 exports.addModule('lib/remote.js');
