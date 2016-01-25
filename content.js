@@ -25,6 +25,7 @@ exports = O.init();
 exports.addModule('node_modules/ip/lib/ip.js', 'ip');
 
 exports.addModule('lib/blinds/index');
+exports.addModule('lib/blinds/listItem');
 exports.addModule('lib/din/index');
 exports.addModule('lib/din/pin');
 exports.addModule('lib/distributor/index');
